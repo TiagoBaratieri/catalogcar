@@ -1,0 +1,107 @@
+.container-home {
+  margin-top: 80px;
+  border: 1px solid orange
+}
+
+.card-home {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  border: 1px solid red;
+}
+
+.image-home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-home-container svg {
+  width: 244px;
+}
+
+.text-home-content {
+  padding: 60px;
+  color: #fff;
+  border: 1px solid purple;
+}
+
+.card-home-nav {
+  margin-top: 20px;
+  padding-top: 10px;
+  background: #ededed;
+  border: none;
+  border-radius: 10px;
+  border: 1px solid brown;
+}
+
+.card-home-nav-btn a {
+  font-size: 14px;
+}
+
+@media (min-width: 220px) {
+  .text-home-content {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .text-home-content h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .text-home-content p {
+    font-size: 14px;
+  }
+
+  .card-home-nav-text {
+    text-align: center;
+  }
+}
+
+@media (min-width: 576px) {
+  .card-home {
+    padding: 20px 100px 20px 100px;
+  }
+
+  .image-home-container svg {
+    width: 333px;
+  }
+
+  .text-home-content h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+
+  .text-home-content p {
+    font-size: 18px;
+  }
+
+  .card-home-nav-text {
+    text-align: start;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-home {
+    padding: 30px 220px 30px 220px;
+  }
+
+  .image-home-container svg {
+    width: 455px;
+  }
+
+  .card-home-nav-text {
+    text-align: start;
+  }
+}
+
+@media (min-width: 1280px) {
+  .card-home {
+    padding: 30px 50px 30px 50px;
+  }
+
+  .text-home-content {
+    text-align: start;
+    margin-top: 40px;
+  }
+}
