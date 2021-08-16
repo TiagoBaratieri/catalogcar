@@ -1,0 +1,27 @@
+.card-search {
+  padding: 25px 10px 25px 10px;
+  background: #ededed;
+  border-radius: 10px;
+}
+
+@media (min-width: 576px) {
+  .card-search {
+    padding: 35px 20px 35px 20px;
+  }
+
+  .btn-search {
+    padding: 0 60px 0 60px;
+  }
+}
+
+@media (min-width: 576px) {
+  .card-search {
+    padding: 35px 100px 35px 100px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .card-search {
+    padding: 35px 120px 35px 120px;
+  }
+}

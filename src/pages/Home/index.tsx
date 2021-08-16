@@ -1,4 +1,5 @@
 import {ReactComponent as CarHome} from 'assets/images/carhome.svg';
+import { Link } from 'react-router-dom';
 import './styles.scss';
 
 const Home = () => {
@@ -24,13 +25,13 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="card card-home-nav mb-5 shadow-sm">
+      <div className="card card-home-nav mb-5">
         <div className="card-body">
           <div className="row">
             <div className="col-sm-6 col-md-3 card-home-nav-btn text-center">
-              <a href="link" className="btn btn-primary pb-1">
+              <Link to="catalog" className="btn btn-primary pb-1">
                 VER CATÁLAGO
-              </a>
+              </Link>
             </div>
             <div className="col-sm-6 col-md-8 card-home-nav-text mt-2">
               <p>Comece agora a navegar</p>
